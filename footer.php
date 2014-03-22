@@ -7,19 +7,18 @@
  * @package neupix
  */
 ?>
-
+	<div class="c">.</div>
 	</div><!-- #content -->
 
-	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'neupix' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'neupix' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( __( 'Theme: %1$s by %2$s.', 'neupix' ), 'neupix', '<a href="http://neupix.com" rel="designer">neupix</a>' ); ?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
+	<footer id="footer" class="site-footer">
+		<div class="w"><div class="p">
+			
+		</div></div>
+	</footer>
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
 
+<script src="<?php echo get_template_directory_uri(); ?>/code.js"></script>
 </body>
 </html>
