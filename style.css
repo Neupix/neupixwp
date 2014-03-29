@@ -12,17 +12,37 @@ Domain Path: /languages/
 Tags:
 */
 
-*{margin:0;padding:0;position:relative;}
+*{margin:0;padding:0;position:relative}
 
-body, input, textarea{font-size: 18px;border:0;}
+body, input, textarea{font-size: 18px;border:0}
 body{line-height: 1.618}
 
-a{text-decoration: none;}
+a{text-decoration: none}
+a:hover{text-decoration: underline}
 img{display: block;max-width: 100%}
 
-form{padding:0 1em;}
-input, textarea{line-height: 1;padding:.5em;}
-.c{clear:both;display:block;height:0;width:0;font-size: 0;opacity:0;}
+form{padding:0 1em}
+input, textarea{line-height: 1;padding:.5em}
+
 
 /* vars */
-body, input, textarea{font-family:sans-serif;}
+body, input, textarea{font-family:sans-serif}
+
+/* neupix tools */
+.c{clear:both;display:block;height:0;width:0;font-size: 0;opacity:0}
+.p{padding:1em}
+.w{max-width:1200px;margin:0 auto}
+.nt{padding-top: 0;padding-bottom: 0;margin-top: 0;margin-bottom: 0}
+
+.d1,.d2,.d3,.d4,.d5,.d6,.d7,.d8,.d9,.d10,.d11{float:left}
+.d1{width:8.33%}
+.d2{width:16.66%}
+.d3{width:25%}
+.d4{width:33.33%}
+.d5{width:41.66%}
+.d6{width:50%}
+.d7{width:58.33%}
+.d8{width:66.66%}
+.d9{width:75%}
+.d10{width:83.33%}
+.d11{width:91.66%}
