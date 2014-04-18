@@ -11,9 +11,9 @@
 	</div><!-- #content -->
 
 	<footer id="footer" class="site-footer">
-		<div class="w"><div class="p">
-			
-		</div></div>
+		<div class="w p">
+
+		</div>
 	</footer>
 </div><!-- #page -->
 
