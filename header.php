@@ -22,9 +22,9 @@
 <div id="page" class="hfeed site">
 
 	<header id="header" class="site-header">
-		<div class="w"><div class="p">
+		<div class="w p">
 			
-		</div></div>
+		</div>
 	</header>
 
 	<div id="content" class="site-content">
