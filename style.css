@@ -14,19 +14,16 @@ Tags:
 
 *{margin:0;padding:0;position:relative}
 
-body, input, textarea{font-size: 18px;border:0}
-body{line-height: 1.618}
-
 a{text-decoration: none}
 a:hover{text-decoration: underline}
-img{display: block;max-width: 100%}
+img{display: block;max-width: 100%;border:0;}
 
 form{padding:0 1em}
-input, textarea{line-height: 1;padding:.5em}
-
+input, textarea{line-height: 1;padding:.5em;border:0;}
 
 /* vars */
-body, input, textarea{font-family:sans-serif}
+body, input, textarea{font:17px/1.618 sans-serif;}
+a{color:#a00;}
 
 /* neupix tools */
 .c{clear:both;display:block;height:0;width:0;font-size: 0;opacity:0}
