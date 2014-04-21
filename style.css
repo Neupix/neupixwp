@@ -12,18 +12,25 @@ Domain Path: /languages/
 Tags:
 */
 
-*{margin:0;padding:0;position:relative}
+/* neupix start */
+
+*{margin: 0;padding: 0;-webkit-transition: -webkit-transform .5s, opacity .5s;position: relative}
+*, *:before, *:after {-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box}
 
 a{text-decoration: none}
 a:hover{text-decoration: underline}
-img{display: block;max-width: 100%;border:0;}
+img{display: block;max-width: 100%;border:0}
 
-form{padding:0 1em}
-input, textarea{line-height: 1;padding:.5em;border:0;}
+input, textarea{line-height: 1;padding:.5em;border:0}
+
+h1{font-size:2em}
+h2{font-size: 1.5em}
+h3{font-size: 1.25em}
+h4{font-size: 1.125em}
 
 /* vars */
-body, input, textarea{font:17px/1.618 sans-serif;}
-a{color:#a00;}
+body, input, textarea{font:17px/1.618 sans-serif}
+a{color:#a00}
 
 /* neupix tools */
 .c{clear:both;display:block;height:0;width:0;font-size: 0;opacity:0}
@@ -31,15 +38,11 @@ a{color:#a00;}
 .w{max-width:1200px;margin:0 auto}
 .nt{padding-top: 0;padding-bottom: 0;margin-top: 0;margin-bottom: 0}
 
+.le{float: left}
+.ri{float: right}
+
+.txt-l{font-style: 1.25em}
+.txt-s{font-style: .8em}
+
 .d1,.d2,.d3,.d4,.d5,.d6,.d7,.d8,.d9,.d10,.d11{float:left}
-.d1{width:8.33%}
-.d2{width:16.66%}
-.d3{width:25%}
-.d4{width:33.33%}
-.d5{width:41.66%}
-.d6{width:50%}
-.d7{width:58.33%}
-.d8{width:66.66%}
-.d9{width:75%}
-.d10{width:83.33%}
-.d11{width:91.66%}
+.d1{width:8.33%}.d2{width:16.66%}.d3{width:25%}.d4{width:33.33%}.d5{width:41.66%}.d6{width:50%}.d7{width:58.33%}.d8{width:66.66%}.d9{width:75%}.d10{width:83.33%}.d11{width:91.66%}
