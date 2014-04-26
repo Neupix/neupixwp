@@ -19,7 +19,7 @@ Tags:
 
 a{text-decoration: none}
 a:hover{text-decoration: underline}
-img{display: block;max-width: 100%;border:0}
+img{display:block;max-width: 100%;border:0}
 
 input, textarea{line-height: 1;padding:.5em;border:0}
 
@@ -27,10 +27,6 @@ h1{font-size:2em}
 h2{font-size: 1.5em}
 h3{font-size: 1.25em}
 h4{font-size: 1.125em}
-
-/* vars */
-body, input, textarea{font:17px/1.618 sans-serif}
-a{color:#a00}
 
 /* neupix tools */
 .c{clear:both;display:block;height:0;width:0;font-size: 0;opacity:0}
