@@ -19,7 +19,7 @@ Tags:
 
 a{text-decoration: none}
 a:hover{text-decoration: underline}
-img{display:block;max-width: 100%;border:0}
+img, iframe{display:block;max-width: 100%;border:0}
 
 input, textarea{line-height: 1;padding:.5em;border:0}
 
@@ -33,6 +33,7 @@ h4{font-size: 1.125em}
 .p{padding:1em}
 .w{max-width:1200px;margin:0 auto}
 .nt{padding-top: 0;padding-bottom: 0;margin-top: 0;margin-bottom: 0}
+.max{padding: 3em 0}
 
 .le{float: left}
 .ri{float: right}
