@@ -14,6 +14,7 @@
 	<title><?php wp_title( '|', true, 'right' ); ?></title>
 	<?php wp_head(); ?>
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/main.css">
+	<link href="<?php echo get_site_url(); ?>/favicon.ico" rel="icon" type="image/x-icon" />
 </head>
 
 <body <?php body_class(); ?>>
