@@ -19,7 +19,7 @@ Tags:
 
 a{text-decoration: none}
 a:hover{text-decoration: underline}
-img, iframe{display:block;max-width: 100%;border:0}
+img, iframe{display:block;max-width: 100%;height:auto;border:0}
 
 input, textarea{line-height: 1;padding:.5em;border:0}
 
