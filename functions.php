@@ -103,3 +103,21 @@ function dequeue_jquery_migrate( &$scripts){
 		$scripts->add( 'jquery', false, array( 'jquery-core' ), '1.10.2' );
 	}
 }
+
+/*
+add_action( 'init', 'create_posttype' );
+function create_posttype() {
+	register_post_type( 'acme_product',
+		array(
+			'labels' => array(
+				'name' => __( 'Products' ),
+				'singular_name' => __( 'Product' )
+			),
+			'public' => true,
+			'has_archive' => true,
+			'rewrite' => array('slug' => 'products'),
+			'menu_icon' => '',
+		)
+	);
+}
+*/
